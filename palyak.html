@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="hu" class="h-100">
+<head>
+    <title>Metro Last Light</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="valami mottó">
+    <meta name="author" content="Scheller Soma">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="d-flex flex-column h-100">
+    <!-- Fejléc -->
+    <header>
+        <!-- Navigációs menü -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-egyedi">
+            <div class="container-fluid">
+                <a href="index.html"><img src="images/metrolastlightlogo.webp" alt="Oldal logó" title="Oldal logó" class="navbar-brand nav-logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Nyomd meg">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="gepigeny.html">Gépigény</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tortenet.html">Történet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="jatekmod.html">Játékmód</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="palyak.html">Pályák</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="fegyverek.html">Fegyverek</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Keresés">
+                        <button class="btn gomb-altalanos-sotet" type="submit">Keresés</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Tartalmi rész -->
+    <main class="flex-shrink-0">
+        <h1 class="mb-5 text-center text-uppercase">Pályarészek</h1>
+        <p class="text-center ">A játékban csak egy pálya van, Moszkva. Az egész játék alatt itt tratózkodsz, mint a metróban, mint a felszínen.</p>
+        <section id="palyak">
+            <div class="card w-75 mb-5 mx-auto palyak-kartyak">
+                <img src="images/ss_1e3b0f0436bed289c0b503766c2484520cf67667.1920x1080.jpg" alt="kep" class="palyak-kepek">
+                <div class="card-body">
+                    <h5 class="card-title display-6">Metróban</h5>
+                </div>
+            </div>
+            <div class="card w-75 mb-5 mx-auto palyak-kartyak">
+                <img src="images/a-recore-a-fable-ii-es-a-metro-last-light-is-csatlakoznak-szeptemberben-az-xbox-game-passhoz_1.jpg" alt="kep" class="palyak-kepek">
+                <div class="card-body">
+                    <h5 class="card-title display-6">Felszínen</h5>
+                </div>
+            </div>
+            <div class="card w-75 mb-5 mx-auto palyak-kartyak">
+                <img src="images/ss_a206b10bda9b4a908881e9df70ab7d691640c89b.1920x1080.jpg" alt="kep" class="palyak-kepek">
+                <div class="card-body">
+                    <h5 class="card-title display-6">Vegyesen</h5>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- Lábléc -->
+    <footer class="footer mt-auto py-3 footer-egyedi">
+        <div class="container">
+            <span class="text-muted"><small>Minden jog fenntartva &copy; Metro Last Light</small></span>
+        </div>
+
+    </footer>
+</body>
+</html>

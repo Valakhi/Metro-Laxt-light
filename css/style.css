@@ -1,0 +1,173 @@
+/*tartalom letolása a nav sávtól*/
+main {
+    padding: 100px 15px 0px;
+
+}
+
+.nav-logo {
+    max-height: 3.5rem;
+    max-width: auto;
+    filter: drop-shadow(0 0 0.3rem rgb(255, 180, 42, 0.685));
+}
+
+.nav-egyedi {
+    background-color: rgb(44, 40, 40);
+}
+
+.footer-egyedi {
+    background-color: rgb(44, 40, 40);
+}
+
+.gomb-altalanos-sotet {
+    color: rgb(255, 255, 255);
+    border-color: white;
+    width: 7rem;
+}
+
+.gomb-altalanos-sotet:hover {
+    color: black;
+    background-color: rgb(255, 180, 42, 0.685);
+    border-color: white;
+}
+
+.gomb-altalanos-vilagos {
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    width: 7rem;
+}
+
+.gomb-altalanos-vilagos:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 180, 42, 0.685);
+    border-color: black;
+}
+
+.header-hatter-kezdolap {
+    background-image: url(../images/header_hatter_kezdolap-web.webp);
+    background-color: black;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gomb-platform-sotet-steam {
+    color: white;
+    min-width: 11rem;
+    height: 3.5rem;
+    background-image: url(../images/steam.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5rem;
+    margin-left: 3rem;
+    margin-left: 3rem;
+}
+
+.gomb-platform-sotet-steam:hover {
+    background-color: rgba(255, 180, 42, 0.685);
+    border-color: black;
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+.gomb-platform-sotet-epic {
+    color: white;
+    min-width: 11rem;
+    height: 4rem;
+    background-image: url(../images/Epic-Games-logo-white-web.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5rem;
+    margin-left: 3rem;
+    margin-left: 3rem;
+}
+
+.gomb-platform-sotet-epic:hover {
+    background-color: rgba(255, 180, 42, 0.685);
+    border-color: black;
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+.szekcio-kep {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    object-position: middle;
+    border-radius: 20px;
+}
+
+.nagyitas-effekt:hover {
+    transform: scale(1.04);
+    transition: transform 1s;
+}
+
+@media (min-width: 480px) {
+    .szekcio-cimsor{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .szekcio-cimsor{
+        margin-top: 10rem;
+    }
+}
+
+.elvalaszto-vonal {
+    margin-top: 5rem;
+}
+
+.metro-header-logo {
+    padding: auto;
+}
+
+.jatekmodok-kartyak {
+    padding: 1.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.274);
+    align-items: center;
+}
+
+.jatekmodok-kepek {
+    border-radius: 30px !important;
+    max-width: 90%;
+    margin: auto;
+}
+
+.palyak-kartyak {
+    padding: 1.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.274);
+}
+
+.palyak-kepek {
+    border-radius: 30px !important;
+    margin: auto;
+    max-width: 100%;
+}
+
+.kepessegek-kartyak:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.kepessegek-kartyak {
+  max-width: 300px;
+  max-height: 300px;
+  align-items: center;
+  padding: 30px;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(116, 99, 2, 0.425) !important;
+  }
+
+main {
+    background: linear-gradient(white,grey);
+}
